@@ -1,9 +1,13 @@
-\documentclass[a4paper,10pt]{article}
+\documentclass[a4paper,11pt]{article}
+\pagestyle{empty} % No page numbers
 \usepackage{geometry}
-\geometry{margin=1in}
+\geometry{margin=.5in}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+\usepackage{lipsum} % For dummy text
 
 \hypersetup{
     colorlinks=true,
@@ -14,34 +18,50 @@
 
 \begin{center}
     {\LARGE \textbf{Carlos Serrouya}} \\
-    2604 Cherokee Dr. | T2l 0X9 | \href{mailto:carlos.serrouya@ucalgary.ca}{carlos.serrouya@ucalgary.ca} | 250-837-1041 \\
+    Calgary | T2M 4H1 | \href{mailto:carlos.serrouya@ucalgary.ca}{carlos.serrouya@ucalgary.ca} | 250-837-1041 \\
 \end{center}
 
-\vspace{0.2cm}
+\vspace{0.0cm}
 
-\section*{Relevant Work Experience and Personal Projects}
+\section*{%
+  \makebox[\textwidth][l]{%
+    \underline{Relevant Work Experience and Personal Projects}%
+  }%
+}
+\lipsum[1] % Dummy text to show the page
 
-\textbf{Data Science Intern} \\
-\textit{Alberta Biodiversity Monitoring Institute} \hfill 2023
+\begin{tabularx}{\textwidth}{X r}
+    \textbf{Data Science Intern} & \textit{Wildtrax} \hspace{1cm} 2024\\[-1ex]
+\end{tabularx}
+
+\begin{itemize}[leftmargin=0.5cm,itemsep=0.1ex]
+	\item Developed a model using existing data to reduce false positives in Microsoft's Megadetector while maintaining a low false negative rate. During testing, the false positive rate decreased by 72%, and the false negative rate decreased by 9%.
+	\item Utilized SQL to create a comprehensive dataset from existing website data, then employed Python to perform regression analysis and train a multiple regression model. The model was integrated into an SQL function to streamline the production process.
+	\item Created and implemented scripts to continuously run on Linux Ubuntu servers, converting Terybites of images and audio files to FLAC and PNG formats. Lower-resolution files were then copied to backup hard drives to prevent data loss in disaster scenarios.
+\end{itemize}
+
+\vspace{0.5cm}
+
+\begin{tabbing}
+\hspace{5cm} \= \hspace{5cm} \= \kill
+\textbf{Data Science Intern} \> \textit{Wildtrax} \> 2024\\
+\end{tabbing}
+
 \begin{itemize}[leftmargin=0.5cm]
     \item Developed machine learning models to identify snow depth and coverage in camera trap images.
     \item Utilized Keras/TensorFlow and scikit-learn to implement semantic segmentation models using U-net, linear models using neural networks (NN) and regressions, and classification models using transfer learning and random forests.
     \item Optimized image processing using NumPy and Pillow, and minimized RAM and VRAM usage during model training.
     \item Created algorithms for object contouring, object detection, and outlier detection. Employed Pandas to manage, edit, and read large datasets.
     \item Presented results to a biology and ecology panel, communicating technical machine learning concepts to a non-technical audience.
-    \item Achieved 84\% accuracy in identifying snow measuring sticks and 96\% accuracy in classifying snow coverage.
-    \item Currently working towards publication and production via command line on a server.
+    \item Achieved 84\% accuracy in identifying snow depth 96\% accuracy in classifying snow coverage.
 \end{itemize}
+
+\vspace{0.5cm}
 
 \textbf{Personal Project: NFL Score Prediction Model} \hfill 2023
 \begin{itemize}[leftmargin=0.5cm]
     \item Used BeautifulSoup for web scraping sports stats websites to gather data.
     \item Developed a predictive model for NFL game outcomes using a compiled dataset.
-\end{itemize}
-
-\textbf{Personal Project: Stock Market Dataset} \hfill 2022
-\begin{itemize}[leftmargin=0.5cm]
-    \item Used yfinance to compile live datasets in Excel for use in machine learning models.
 \end{itemize}
 
 \vspace{0.2cm}
@@ -51,8 +71,8 @@
 \noindent
 \begin{minipage}[t]{0.45\textwidth} % Left column (45% of text width)
     \textbf{University of Calgary} \\
-    \textit{BSc Computer Science} \hfill 2022-Present \\
-    \textit{BSc Mathematics} \hfill 2021-Present
+    \textit{BSc Computer Science} \hfill 2022-2026 \\
+    \textit{BSc Mathematics} \hfill 2021-2026
 \end{minipage}
 \hfill % This creates space between the columns
 \begin{minipage}[t]{0.45\textwidth} % Right column (45% of text width)
