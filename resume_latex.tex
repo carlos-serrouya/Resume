@@ -8,7 +8,7 @@
 \usepackage{tabularx}
 \usepackage[normalem]{ulem}
 
-\def\jobh{\hspace{0cm}}
+\def\jobh{\hspace{-1ex}}
 \def\locationh{\hspace{7cm}}
 \def\dateh{\hspace{10cm}}
 \def\titlev{\vspace{0cm}}
@@ -32,16 +32,19 @@
 
 \titlev
 
-\uline{\textsc{Relevant Work Experience and Personal Projects}\hfill}
+\noindent \makebox[\textwidth][c]{\textsc{Relevant Work Experience and Personal Projects}}
+\vspace{-2.35em} % Adjust this value as needed
+\par\noindent
+\rule{\textwidth}{0.4pt}
 
 \sectionv
 
-\begin{tabbing}
+\noindent \begin{tabbing}
     \jobh \= \locationh \= \dateh \= \kill
-    \textbf{Data Science Intern} \> \textit{Wildtrax} \> 2023\\
+    \> \textbf{Data Science Intern} \> \textit{Wildtrax} \> 2023\\
 \end{tabbing}
 
-\begin{itemize}[leftmargin=0.0cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
 	\item Developed a model using existing data to reduce false positives in Microsoft's Megadetector while maintaining a low false negative rate. During testing, the false positive rate decreased by 72%, and the false negative rate decreased by 9%.
 	\item Utilized SQL to create a comprehensive dataset from existing website data, then employed Python to perform regression analysis and train a multiple regression model. The model was integrated into an SQL function to streamline the production process.
 	\item Created and implemented scripts to continuously run on Linux Ubuntu servers, converting Terybites of images and audio files to FLAC and PNG formats. Lower-resolution files were then copied to backup hard drives to prevent data loss in disaster scenarios.
