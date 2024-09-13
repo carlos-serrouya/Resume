@@ -7,7 +7,16 @@
 \usepackage{xcolor}
 \usepackage{tabularx}
 \usepackage[normalem]{ulem}
-\usepackage{lipsum} % For dummy text
+
+\def\jobh{\hspace{0cm}}
+\def\locationh{\hspace{7cm}}
+\def\dateh{\hspace{10cm}}
+\def\titlev{\vspace{0cm}}
+\def\sectionv{\vspace{0cm}}
+\def\subsectionv{\vspace{-5ex}}
+\def\betweenpoints{.1cm}
+\def\postpointsv{\vspace{0cm}}
+
 
 \hypersetup{
     colorlinks=true,
@@ -21,20 +30,18 @@
     Calgary | T2M 4H1 | \href{mailto:carlos.serrouya@ucalgary.ca}{carlos.serrouya@ucalgary.ca} | 250-837-1041 \\
 \end{center}
 
-\vspace{0.0cm}
+\titlev
 
-\section*{%
-  \makebox[\textwidth][l]{%
-    \underline{Relevant Work Experience and Personal Projects}%
-  }%
-}
-\lipsum[1] % Dummy text to show the page
+\uline{\textsc{Relevant Work Experience and Personal Projects}\hfill}
 
-\begin{tabularx}{\textwidth}{X r}
-    \textbf{Data Science Intern} & \textit{Wildtrax} \hspace{1cm} 2024\\[-1ex]
-\end{tabularx}
+\sectionv
 
-\begin{itemize}[leftmargin=0.5cm,itemsep=0.1ex]
+\begin{tabbing}
+    \jobh \= \locationh \= \dateh \= \kill
+    \textbf{Data Science Intern} \> \textit{Wildtrax} \> 2023\\
+\end{tabbing}
+
+\begin{itemize}[leftmargin=0.0cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
 	\item Developed a model using existing data to reduce false positives in Microsoft's Megadetector while maintaining a low false negative rate. During testing, the false positive rate decreased by 72%, and the false negative rate decreased by 9%.
 	\item Utilized SQL to create a comprehensive dataset from existing website data, then employed Python to perform regression analysis and train a multiple regression model. The model was integrated into an SQL function to streamline the production process.
 	\item Created and implemented scripts to continuously run on Linux Ubuntu servers, converting Terybites of images and audio files to FLAC and PNG formats. Lower-resolution files were then copied to backup hard drives to prevent data loss in disaster scenarios.
@@ -43,11 +50,11 @@
 \vspace{0.5cm}
 
 \begin{tabbing}
-\hspace{5cm} \= \hspace{5cm} \= \kill
-\textbf{Data Science Intern} \> \textit{Wildtrax} \> 2024\\
+    \hspace{7cm} \= \hspace{10cm} \= \kill
+    \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \> 2023\\
 \end{tabbing}
 
-\begin{itemize}[leftmargin=0.5cm]
+\begin{itemize}[leftmargin=0.0cm]
     \item Developed machine learning models to identify snow depth and coverage in camera trap images.
     \item Utilized Keras/TensorFlow and scikit-learn to implement semantic segmentation models using U-net, linear models using neural networks (NN) and regressions, and classification models using transfer learning and random forests.
     \item Optimized image processing using NumPy and Pillow, and minimized RAM and VRAM usage during model training.
