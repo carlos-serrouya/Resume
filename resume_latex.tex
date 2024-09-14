@@ -11,7 +11,7 @@
 \def\jobh{\hspace{-1ex}}
 \def\locationh{\hspace{7cm}}
 \def\dateh{\hspace{10cm}}
-\def\titlev{\vspace{0cm}}
+\def\titlev{\vspace{.5cm}}
 \def\sectionv{\vspace{0cm}}
 \def\subsectionv{\vspace{-5ex}}
 \def\betweenpoints{.1cm}
@@ -53,11 +53,11 @@
 \vspace{0.5cm}
 
 \begin{tabbing}
-    \hspace{7cm} \= \hspace{10cm} \= \kill
-    \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \> 2023\\
+    \jobh \= \locationh \= \dateh \= \kill
+    \> \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \> 2023\\
 \end{tabbing}
 
-\begin{itemize}[leftmargin=0.0cm]
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
     \item Developed machine learning models to identify snow depth and coverage in camera trap images.
     \item Utilized Keras/TensorFlow and scikit-learn to implement semantic segmentation models using U-net, linear models using neural networks (NN) and regressions, and classification models using transfer learning and random forests.
     \item Optimized image processing using NumPy and Pillow, and minimized RAM and VRAM usage during model training.
@@ -68,8 +68,12 @@
 
 \vspace{0.5cm}
 
-\textbf{Personal Project: NFL Score Prediction Model} \hfill 2023
-\begin{itemize}[leftmargin=0.5cm]
+\begin{tabbing}
+    \jobh \= \locationh \= \dateh \= \kill
+    \> \textbf{Personal Project} \> \textit{NFL Score Prediction Model} \> 2023\\
+\end{tabbing}
+
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
     \item Used BeautifulSoup for web scraping sports stats websites to gather data.
     \item Developed a predictive model for NFL game outcomes using a compiled dataset.
 \end{itemize}
@@ -110,3 +114,10 @@
 \end{itemize}
 
 \end{document}
+
+% \textbf{Basketball Coach} \hfill 2019-2021
+% \begin{itemize}[leftmargin=0.5cm]
+%     \item Volunteered to coach U13 basketball team while serving as the varsity team captain.
+%     \item Organized drills, coached games, and led practices.
+%     \item Awarded the Terry Bidel award for community athletic leadership and achievement.
+% \end{itemize}
