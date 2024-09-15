@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726343362.07864 "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" "resume_latex.pdf" "resume_latex" 1726343362.88704 0
+["pdflatex"] 1726367181.1828 "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" "resume_latex.pdf" "resume_latex" 1726367182.13294 0
   "C:/Users/serro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726253959 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/serro/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1726253963 12668 05a85d93f0dc4a6a97a82603f0e24427 ""
   "C:/Users/serro/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1726087372 24265374 61383817b28226a9243a8372ffe067ae ""
@@ -8,7 +8,6 @@
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr10.tfm" 1136765053 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
-  "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136765053 520 4889cce2180234b97cad636b6039c722 ""
@@ -62,10 +61,10 @@
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" 1726343361 5281 50e8124f3865cefd2f514bfdef3a60d7 ""
-  "resume_latex.aux" 1726343362 162 87159b23cce7c2b923b11c85495bbd6d "pdflatex"
-  "resume_latex.out" 1726343362 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume_latex.tex" 1726343361 5281 50e8124f3865cefd2f514bfdef3a60d7 ""
+  "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" 1726367180 5464 bb11a8266d33834981d913046fc34e6b ""
+  "resume_latex.aux" 1726367181 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "resume_latex.out" 1726367181 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume_latex.tex" 1726367180 5464 bb11a8266d33834981d913046fc34e6b ""
   (generated)
   "resume_latex.aux"
   "resume_latex.log"

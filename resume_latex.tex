@@ -10,12 +10,13 @@
 
 \def\jobh{\hspace{-1ex}}
 \def\locationh{\hspace{7cm}}
-\def\dateh{\hspace{10cm}}
+\def\dateh{\hspace{3cm}}
 \def\titlev{\vspace{.5cm}}
-\def\sectionv{\vspace{0cm}}
-\def\subsectionv{\vspace{-5ex}}
+\def\sectionv{\vspace{.2cm}}
+\def\subsectionv{\vspace{-5.3ex}}
 \def\betweenpoints{.1cm}
 \def\postpointsv{\vspace{0cm}}
+\def\betweenjobsv{\vspace{0.4cm}}
 
 
 \hypersetup{
@@ -32,7 +33,7 @@
 
 \titlev
 
-\noindent \makebox[\textwidth][c]{\textsc{Relevant Work Experience and Personal Projects}}
+\noindent \makebox[\textwidth][c]{\textsc{Work Experience and Personal Projects}}
 \vspace{-2.35em} % Adjust this value as needed
 \par\noindent
 \rule{\textwidth}{0.4pt}
@@ -40,37 +41,38 @@
 \sectionv
 
 \noindent \begin{tabbing}
-    \jobh \= \locationh \= \dateh \= \kill
-    \> \textbf{Data Science Intern} \> \textit{Wildtrax} \> 2023\\
+    \locationh \= \kill
+    \textbf{Data Science Intern} \> \textit{Wildtrax} \` 2024 \\
 \end{tabbing}
 
+
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
-	\item Developed a model using existing data to reduce false positives in Microsoft's Megadetector while maintaining a low false negative rate. During testing, the false positive rate decreased by 72%, and the false negative rate decreased by 9%.
-	\item Utilized SQL to create a comprehensive dataset from existing website data, then employed Python to perform regression analysis and train a multiple regression model. The model was integrated into an SQL function to streamline the production process.
-	\item Created and implemented scripts to continuously run on Linux Ubuntu servers, converting Terybites of images and audio files to FLAC and PNG formats. Lower-resolution files were then copied to backup hard drives to prevent data loss in disaster scenarios.
+    \item Built a model using existing data to reduce false positives in Microsoft's Megadetector, lowering the false positive rate by 72\% and the false negative rate by 9\%.
+    \item Utilized SQL to create a comprehensive dataset from existing website data, then employed Python to perform regression analysis and train a multiple regression model. Then integrated the model into an SQL function to streamline model production.
+    \item Developed scripts on Linux Ubuntu servers to convert terabytes of images and audio to FLAC and PNG, with lower-resolution files backed up for disaster recovery.
 \end{itemize}
 
-\vspace{0.5cm}
+\betweenjobsv
 
 \begin{tabbing}
-    \jobh \= \locationh \= \dateh \= \kill
-    \> \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \> 2023\\
+    \locationh \= \kill
+    \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \` 2023 \\
 \end{tabbing}
 
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
     \item Developed machine learning models to identify snow depth and coverage in camera trap images.
-    \item Utilized Keras/TensorFlow and scikit-learn to implement semantic segmentation models using U-net, linear models using neural networks (NN) and regressions, and classification models using transfer learning and random forests.
+    \item Utilized Keras/TensorFlow and scikit-learn to implement semantic segmentation models using U-net, linear models using neural networks and regressions, and classification models using transfer learning and random forests.
     \item Optimized image processing using NumPy and Pillow, and minimized RAM and VRAM usage during model training.
     \item Created algorithms for object contouring, object detection, and outlier detection. Employed Pandas to manage, edit, and read large datasets.
     \item Presented results to a biology and ecology panel, communicating technical machine learning concepts to a non-technical audience.
     \item Achieved 84\% accuracy in identifying snow depth 96\% accuracy in classifying snow coverage.
 \end{itemize}
 
-\vspace{0.5cm}
+\betweenjobsv
 
 \begin{tabbing}
-    \jobh \= \locationh \= \dateh \= \kill
-    \> \textbf{Personal Project} \> \textit{NFL Score Prediction Model} \> 2023\\
+    \locationh \= \kill
+    \textbf{Personal Project} \> \textit{NFL Score Prediction Model} \` 2023 \\
 \end{tabbing}
 
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
@@ -78,9 +80,39 @@
     \item Developed a predictive model for NFL game outcomes using a compiled dataset.
 \end{itemize}
 
-\vspace{0.2cm}
+\betweenjobsv
 
-\section*{Education}
+\begin{tabbing}
+    \locationh \= \kill
+    \textbf{Server/Bartender/Host} \> \textit{Village Idiot Bar and Grill} \` 2016-2021 \\
+\end{tabbing}
+
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
+    \item Worked in a high-paced environment, handled customer interactions, and managed cash transactions.
+    \item Operated as part of a team, handling thousands of dollars each shift.
+\end{itemize}
+
+\betweenjobsv
+
+\begin{tabbing}
+    \locationh \= \kill
+    \textbf{Basketball Coach} \> \textit{Revelstoke Secondary School} \` 2019-2021\\
+\end{tabbing}
+
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
+    \item Volunteered to coach U13 basketball team while serving as the varsity team captain.
+    \item Organized drills, coached games, and led practices.
+    \item Awarded the Terry Bidel award for community athletic leadership and achievement.
+\end{itemize}
+
+\betweenjobsv
+
+\noindent \makebox[\textwidth][c]{\textsc{Education and Certifications}}
+\vspace{-2.35em} % Adjust this value as needed
+\par\noindent
+\rule{\textwidth}{0.4pt}
+
+\sectionv
 
 \noindent
 \begin{minipage}[t]{0.45\textwidth} % Left column (45% of text width)
@@ -94,24 +126,6 @@
     \textit{Advanced Learning Algorithms} \hfill 2023 \\
     \textit{Regression \& Classification} \hfill 2023
 \end{minipage}
-
-\vspace{0.2cm}
-
-\section*{Other Work Experience \& Volunteering}
-
-\textbf{Server/Bartender/Host} \\
-\textit{Village Idiot Bar and Grill} \hfill 2016-2022
-\begin{itemize}[leftmargin=0.5cm]
-    \item Worked in a high-paced environment, handled customer interactions, and managed cash transactions.
-    \item Operated as part of a team, handling thousands of dollars each shift.
-\end{itemize}
-
-\textbf{Basketball Coach} \hfill 2019-2021
-\begin{itemize}[leftmargin=0.5cm]
-    \item Volunteered to coach U13 basketball team while serving as the varsity team captain.
-    \item Organized drills, coached games, and led practices.
-    \item Awarded the Terry Bidel award for community athletic leadership and achievement.
-\end{itemize}
 
 \end{document}
 
