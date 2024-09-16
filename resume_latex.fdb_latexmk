@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1726367181.1828 "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" "resume_latex.pdf" "resume_latex" 1726367182.13294 0
+["pdflatex"] 1726439052.73763 "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" "resume_latex.pdf" "resume_latex" 1726439053.62074 0
   "C:/Users/serro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1726253959 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/serro/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1726253963 12668 05a85d93f0dc4a6a97a82603f0e24427 ""
   "C:/Users/serro/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1726087372 24265374 61383817b28226a9243a8372ffe067ae ""
@@ -61,10 +61,10 @@
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/tex/latex/ulem/ulem.sty" 1578651445 15682 94f55b803e160cf7fb6e4d77d07cfe1d ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/serro/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" 1726367180 5464 bb11a8266d33834981d913046fc34e6b ""
-  "resume_latex.aux" 1726367181 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "resume_latex.out" 1726367181 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "resume_latex.tex" 1726367180 5464 bb11a8266d33834981d913046fc34e6b ""
+  "c:/Users/serro/Documents/GitHub/Resume/resume_latex.tex" 1726439052 5604 0375c5836bd77cba7af03ffabd83dcad ""
+  "resume_latex.aux" 1726439053 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "resume_latex.out" 1726439053 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "resume_latex.tex" 1726439052 5604 0375c5836bd77cba7af03ffabd83dcad ""
   (generated)
   "resume_latex.aux"
   "resume_latex.log"
