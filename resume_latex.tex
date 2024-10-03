@@ -1,7 +1,7 @@
 \documentclass[a4paper,11pt]{article}
 \pagestyle{empty} % No page numbers
 \usepackage{geometry}
-\geometry{margin=.5in}
+\geometry{margin=.7in}
 \usepackage{enumitem}
 \usepackage{hyperref}
 \usepackage{xcolor}
@@ -17,6 +17,7 @@
 \def\betweenpoints{.1cm}
 \def\postpointsv{\vspace{0cm}}
 \def\betweenjobsv{\vspace{0.4cm}}
+\def\betweenskillsh{\hspace{1.4cm}}
 
 
 \hypersetup{
@@ -28,7 +29,7 @@
 
 \begin{center}
     {\LARGE \textbf{Carlos Serrouya}} \\
-    Calgary | T2M 4H1 | \href{mailto:carlos.serrouya@ucalgary.ca}{carlos.serrouya@ucalgary.ca} | 250-837-1041 \\
+    Calgary | www.linkedin.com/in/carlos-serrouya-27053b276 | \href{mailto:carlos.serrouya@ucalgary.ca}{carlos.serrouya@ucalgary.ca} | 250-837-1041 \\
 \end{center}
 
 \titlev
@@ -42,33 +43,20 @@
 
 \noindent \begin{tabbing}
     \locationh \= \kill
-    \textbf{Data Science Intern} \> \textit{Wildtrax} \` 2024 \\
+    \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \` 2023-2024 \\
 \end{tabbing}
 
 
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
-    \item Built a model to reduce false positives in Microsoft's Megadetector, lowering the false positive rate by 72\% and the false negative rate by 9\%.
-    \item Utilized SQL to create a comprehensive dataset from existing website data, then employed Python to perform regression analysis and train a multiple regression model. 
-    \item Integrated the regression model into an SQL function to streamline model production.
-    \item Visualized variables and model performance with descriptive graphs using Matplotlib and Seaborn. 
-    \item Developed scripts on Linux Ubuntu servers to convert hundreds of terabytes of images and audio files to FLAC and PNG, with lower-resolution files backed up for disaster recovery.
-\end{itemize}
-
-\betweenjobsv
-
-\begin{tabbing}
-    \locationh \= \kill
-    \textbf{Data Science Intern} \> \textit{Alberta Biodiversity Monitoring Institute} \` 2023 \\
-\end{tabbing}
-
-\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
-    \item Developed machine learning models to identify snow depth and coverage in camera trap images.
-    \item Utilized Keras/TensorFlow and Scikit-learn to implement semantic segmentation models using U-net, linear models using neural networks and regressions, and classification models using transfer learning and random forests.
-    \item Optimized image processing using NumPy and Pillow, and minimized RAM and VRAM usage during model training.
-    \item Created algorithms for object contouring, object detection, and outlier detection. 
-    \item Used Pandas to manage, edit, and read large CSV/Excel files.
-    \item Presented results to a biology and ecology panel, communicating technical machine learning concepts to a non-technical audience.
-    \item Achieved 84\% accuracy in identifying snow depth 96\% accuracy in classifying snow coverage.
+    \item Developed machine learning models for animal detection, snow depth, and snow coverage in camera trap images.
+    \item Implemented U-Net neural network, transfer learning, multiple regression, and random forests models using Keras/TensorFlow and Scikit-learn.
+    \item Optimized image processing with NumPy/Pillow, reducing RAM and VRAM usage during training.
+    \item Created object contouring, detection, and outlier detection algorithms.
+    \item Managed large datasets with Pandas and SQL, integrated multiple regression models into SQL functions.
+    \item Presented machine learning results to a non-technical panel, achieving 84\% snow depth accuracy and 96\% coverage classification.
+    \item Reduced false positives in Microsoft's Megadetector by 72\%, false negatives by 9\%.
+    \item Visualized model performance data with Matplotlib and Seaborn.
+    \item Automated image/audio conversion on Linux servers, reducing file sizes for backup.
 \end{itemize}
 
 \betweenjobsv
@@ -79,8 +67,8 @@
 \end{tabbing}
 
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
-    \item Used BeautifulSoup for web scraping sports stats websites to gather data.
-    \item Developed a predictive model for NFL game outcomes using a compiled dataset.
+    \item Used BeautifulSoup to scrape data from sports stats websites.
+    \item Developed a predictive model for NFL game outcomes with 67\% accuracy on test data.
 \end{itemize}
 
 \betweenjobsv
@@ -92,7 +80,7 @@
 
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
     \item Worked in a high-paced environment, handled customer interactions, and managed cash transactions.
-    \item Operated as part of a team, handling thousands of dollars each shift.
+    \item Operated as part of a team, successfully mitigated conflicts and handled thousands of dollars each shift.
 \end{itemize}
 
 \betweenjobsv
@@ -105,7 +93,7 @@
 \begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
     \item Volunteered to coach U13 basketball team while serving as the varsity team captain.
     \item Organized drills, coached games, and led practices.
-    \item Awarded the Terry Bidel award for community athletic leadership and achievement.
+    \item Awarded the Terry Beitel award for community athletic leadership and achievement.
 \end{itemize}
 
 \betweenjobsv
@@ -128,6 +116,32 @@
     \textbf{Coursera} \\
     \textit{Advanced Learning Algorithms} \hfill 2023 \\
     \textit{Regression \& Classification} \hfill 2023
+\end{minipage}
+
+\betweenjobsv
+\sectionv
+
+\noindent \makebox[\textwidth][c]{\textsc{Advanced Skills}}
+\vspace{-2.35em} % Adjust this value as needed
+\par\noindent
+\rule{\textwidth}{0.4pt}
+
+\sectionv
+
+\noindent
+\begin{minipage}[t]{0.32\textwidth} % Left column (32% of text width)
+    \textbf{Microsoft Office} \\
+    \textbf{Testing Automation} \\
+\end{minipage}
+\betweenskillsh
+\begin{minipage}[t]{0.32\textwidth} % Middle column (32% of text width)
+    \textbf{Data Validation} \\
+    \textbf{Data Visualization} \\
+\end{minipage}
+\betweenskillsh
+\begin{minipage}[t]{0.32\textwidth} % Right column (32% of text width)
+    \textbf{SQL} \\
+    \textbf{Power BI} \\
 \end{minipage}
 
 \end{document}
