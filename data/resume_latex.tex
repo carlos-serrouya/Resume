@@ -1,0 +1,132 @@
+\documentclass[a4paper,11pt]{article}
+\pagestyle{empty} % No page numbers
+\usepackage{geometry}
+\geometry{margin=.7in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage[normalem]{ulem}
+
+\def\jobh{\hspace{-1ex}}
+\def\locationh{\hspace{7cm}}
+\def\dateh{\hspace{3cm}}
+\def\titlev{\vspace{.5cm}}
+\def\sectionv{\vspace{.2cm}}
+\def\subsectionv{\vspace{-5.3ex}}
+\def\betweenpoints{.1cm}
+\def\postpointsv{\vspace{0cm}}
+\def\betweenjobsv{\vspace{0.4cm}}
+\def\betweenskillsh{\hspace{1.4cm}}
+
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Carlos Serrouya}}\\[0.3cm]
+    Calgary \hspace{0.5em} 
+    \vrule width 0.4pt height 1.2em depth 0.2em \hspace{0.5em}
+    \href{https://www.linkedin.com/in/carlos-serrouya-27053b276}{LinkedIn} \hspace{0.5em} 
+    \vrule width 0.4pt height 1.2em depth 0.2em \hspace{0.5em}
+    \href{mailto:carlos.serrouya@ucalgary.ca}{carlos.serrouya@ucalgary.ca} \hspace{0.5em} 
+    \vrule width 0.4pt height 1.2em depth 0.2em \hspace{0.5em}
+    250-837-1041
+\end{center}
+\titlev
+
+\noindent \makebox[\textwidth][c]{\textsc{Work Experience and Personal Projects}}
+\vspace{-2.35em} % Adjust this value as needed
+\par\noindent
+\rule{\textwidth}{0.4pt}
+
+\sectionv
+
+\noindent \begin{tabbing}
+    \locationh \= \kill
+    \textbf{Data Science Intern} \textit{Open Ocean Robotics} \` 2025 – Present (1 Year) \\
+\end{tabbing}
+
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
+    \item Key contributor in taking \textbf{Enhanced Horizon\texttrademark} from development to a robust object tracking and localization system used on autonomous surface vessels.
+    \item Deployed ML applications on edge devices and cloud using Docker, PyInstaller, and Git CI pipelines; optimized latency and throughput with TensorRT, NumPy, and multithreading
+    \item Implemented an end-to-end model benchmarking pipeline that auto-generates reports and visualizations for each new model release, enhancing reproducibility and performance tracking
+    \item Improved object detection models developed with PyTorch by +20\% inference speed; mAP50: 28→45, mAP50-95: 7→20, precision: 40→80\%, recall: 30→40\%, class confidence: 80→90\%
+    \item Developed distance estimation object tracking algorithms using camera ray tracing, Kalman filter, statistical propegation of errors; deployed from simulation to edge devices on USVs with highly positive field feedback from USV operators, earning a company wide innovation award
+    \item Automated large-scale data uploading and labeling pipelines, processing terabytes every two weeks, reducing manual upload time by ~3 hours per cycle
+    \item Worked closely with a fellow intern during Python-to-Rust migration of key DS applications, explaining statistical and mathematical concepts and assisting with debugging
+    \item Conducted advanced and extensive statistical analysis of data science applications performance; visualized results using matplotlib, seaborn, grafana, and \textbf{Xploreview\texttrademark} to guide engineering improvements and inform stakeholders. Presented as Visual lead to multiple clients totalling in hundreds of thousands in contracts.
+\end{itemize}
+
+
+\noindent \begin{tabbing}
+    \locationh \= \kill
+    \textbf{Data Science Intern} \textit{Alberta Biodiversity Monitoring Institute} \` May-September 2023, 2024\\
+\end{tabbing}
+
+
+\begin{itemize}[leftmargin=.5cm, itemsep=.1cm, before=\subsectionv, after=\postpointsv]
+    \item Developed a proof-of-concept application to estimate snow coverage and depth from camera trap images using a fixed-reference-pole semantic segmentation and classification approach; done by using Tensor flow for U-net model and transfer learning to random forest model for classification model. Was able to reliably estimate snow depth in a given image within 7cm
+    \item Created object contouring, detection, and outlier detection algorithms, to indetify inconsisensies in application results
+    \item Managed large datasets with Pandas and SQL, integrated basic statistical models as SQL triggers.
+    \item Presented machine learning results to a non-technical panel, achieving 84\% snow depth accuracy and 96\% coverage classification.
+    \item Reduced false positives in Microsoft's Megadetector by 72\%, false negatives by 9\%, by implementing multiple regression post process model
+    \item Visualized model performance data with Matplotlib and Seaborn.
+\end{itemize}
+
+\betweenjobsv
+
+\noindent \makebox[\textwidth][c]{\textsc{Education and Certifications}}
+\vspace{-2.35em} % Adjust this value as needed
+\par\noindent
+\rule{\textwidth}{0.4pt}
+
+\sectionv
+
+\noindent
+\begin{minipage}[t]{0.45\textwidth} % Left column (45% of text width)
+    \textbf{University of Calgary} \\
+    \textit{BSc Computer Science} \hfill 2022-2027 \\
+    \textit{BSc Mathematics} \hfill 2021-2026
+\end{minipage}
+\hfill % This creates space between the columns
+\begin{minipage}[t]{0.45\textwidth} % Right column (45% of text width)
+    \textbf{Coursera} \\
+    \textit{Advanced Learning Algorithms} \hfill 2023 \\
+    \textit{Regression \& Classification} \hfill 2023
+\end{minipage}
+
+\betweenjobsv
+\sectionv
+
+\noindent \makebox[\textwidth][c]{\textsc{Advanced Skills}}
+\vspace{-2.35em} % Adjust this value as needed
+\par\noindent
+\rule{\textwidth}{0.4pt}
+
+\sectionv
+
+\noindent
+\begin{minipage}[t]{0.32\textwidth} % Left column (32% of text width)
+    \textbf{Microsoft Office} \\
+    \textbf{Testing Automation} \\
+\end{minipage}
+\betweenskillsh
+\begin{minipage}[t]{0.32\textwidth} % Middle column (32% of text width)
+    \textbf{Data Validation} \\
+    \textbf{Data Visualization} \\
+\end{minipage}
+\betweenskillsh
+\begin{minipage}[t]{0.32\textwidth} % Right column (32% of text width)
+    \textbf{SQL} \\
+    \textbf{Power BI} \\
+\end{minipage}
+
+\end{document}
+
+
+
